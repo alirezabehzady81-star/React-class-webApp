@@ -1,7 +1,7 @@
-// import React from 'react'
+import { createBrowserRouter } from "react-router-dom";
+// import pages
+import { MainLayout } from "../../components/Layouts/MainLayout/MainLayout";
 
-const Router = () => {
-  return <div>Router</div>;
-};
+const Routes = createBrowserRouter([{ path: "/", element: <MainLayout /> }]);
 
-export default Router;
+export { Routes };
