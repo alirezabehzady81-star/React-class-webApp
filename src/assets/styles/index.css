@@ -3,4 +3,5 @@
 /* body styles */
 body {
   margin: 0;
+  direction: rtl;
 }
